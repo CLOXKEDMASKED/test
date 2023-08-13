@@ -1,83 +1,77 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <link rel="stylesheet" href="./play/styles/main.css">
+    <title>Masked's Game Hub 2.0</title>
+           <!-- Primary Meta Tags -->
+        <meta name="title" content="Masked's Game Hub 2.0">
+        <meta name="description" content="Masked's Game Hub 2.0 | Your time to game. ">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- Open Graph / Facebook -->
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
- <html>
-<head>
-    <title>Masked's Game Hub 2.0 - Games</title>
-    <title>Masked's Game Hub 2.0</title>
-</head>
-</html>
-    <body>
-  <div>
-     <div class="wave"></div>
-     <div class="wave"></div>
-     <div class="wave"></div>
-  </div>
+    <div></div>
 </body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <button onclick="location.href='./play'" type="button">PLAY NOW</button>
+  </body>
+</html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="#">Home</a>
+      <a href="./play">Play</a>
+      <a href="./info">Info</a>
+      <a href="./settings">Settings</a>
+    </nav>
+  </body>
+</html>
 <html>
 <head>
 <style>
-.image-button {
-  display: inline-block;
-  position: relative;
-  overflow: hidden;
-  text-align: center; /* Align text horizontally */
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Prevent scrollbars due to image overflow */
 }
 
-.image-button img {
-  width: 100px; /* Adjust the width as needed */
+.top-left-image {
+  position: fixed; /* Positioning type that stays fixed while scrolling */
+  top: 0; /* Distance from the top of the viewport */
+  left: 0; /* Distance from the left of the viewport */
+  width: 150px; /* Adjust the width as needed */
   height: auto; /* Automatically adjust the height while maintaining aspect ratio */
-  transition: transform 0.3s, filter 0.3s;
 }
 
-.image-button:hover img {
-  transform: scale(0.9); /* Adjust the scale factor to your preference */
-  filter: brightness(70%);
-}
-
-.image-button:hover .button-text {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-.button-text {
-  position: absolute;
-  top: 50%; /* Position the text vertically at 50% from the top */
-  left: 50%; /* Position the text horizontally at 50% from the left */
-  transform: translate(-50%, -50%); /* Center the text */
-  opacity: 0;
-  transition: opacity 0.3s, transform 0.3s;
-  background-color: rgba(0, 0, 0, 0.7);
-  color: white;
-  padding: 5px 10px;
-  border-radius: 5px;
-  font-size: 14px;
-}
+/* Adjust other styles as needed */
 </style>
 </head>
 <body>
 
-<a href="./play/2048">
-  <div class="image-button">
-    <img src="./play/icons/2048.webp" alt="Button Image">
-    <div class="button-text">2048</div>
-  </div>
-</a>
-<a href="./play/flappybird">
-  <div class="image-button">
-    <img src="./play/icons/flappybird.webp" alt="Button Image">
-    <div class="button-text">FlappyBird</div>
-  </div>
-</a>
-<a href="./play/minecraft">
-  <div class="image-button">
-    <img src="./play/icons/minecraft.webp" alt="Button Image">
-    <div class="button-text">Minecraft Javascript Edition</div>
-  </div>
-</a>
-    
+<img src="./play/icons/logo2.png" alt="Top Left Image" class="top-left-image">
+
 </body>
 </html>
